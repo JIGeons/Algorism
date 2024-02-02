@@ -16,6 +16,8 @@ public class P1541 {
         String example = token.nextToken();
 
         String[] str = example.split("-");
+        int answer = 0;
+
         for(int i = 0; i < str.length; i++){
             int temp = mySum(str[i]);
             if(i == 0)
@@ -25,10 +27,10 @@ public class P1541 {
         }
         System.out.println(answer);
     }
-    
+
     static int mySum(String a) {    // 나뉜 그룹의 더하기 연산 수행 함수
         int sum = 0;
-        String temp[] = a.split("+");
+        String[] temp = a.split("[+]");
         for (int i = 0; i < temp.length; i++){
             sum += Integer.parseInt(temp[i]);
         }
