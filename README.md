@@ -1,3 +1,4 @@
+# Notion : https://magic-walnut-fef.notion.site/57d5e6f903a44617923f5c137bede251?v=bd26a521177d4dfba4a01d52c12473a2&pvs=4
 # Algorism
 ## 백준
 ### 🥉Bronze
