@@ -30,7 +30,12 @@ class Solution {
                 count = 0;
             }
         }
-        
+
+        // 속도 개선하기
+        for (int i = score.length; i >= 0; i -= m){
+          answer += score[i-m] * m;
+        }
+     
         return answer;
     }
 }
